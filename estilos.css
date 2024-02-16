@@ -1,0 +1,69 @@
+body {
+    background-color: rgb(255, 255, 255);
+    padding: 0;
+    margin: 0;
+  
+    background-image: url(/imagenes/istockphoto-1392494719-612x612.jpg);
+background-size:cover;
+}
+
+
+
+header {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 20%; /* Ajusta la altura según tus necesidades */
+    display: flex; /* Usamos flexbox para organizar los elementos */
+    align-items: center; /* Para centrar verticalmente los elementos */
+    justify-content: space-between; /* Para distribuir los elementos horizontalmente */
+    padding: 0 ; 
+    /* Añadimos un poco de espacio alrededor de los elementos */
+border-bottom: 1px solid rgb(180, 180, 180);
+}
+
+
+
+    
+    h1{
+        padding: 5px;
+        font-family: monospace;
+        color: rgb(255, 106, 106);
+    }
+
+.contenidoimg {
+    width: auto; /* El ancho se ajustará automáticamente */
+    height: 100%; /* La altura se ajustará automáticamente */
+}
+
+#persona {
+    max-height: 10%;
+    max-width: 10%; /* La imagen no excederá el ancho del contenedor */
+    height: auto; /* La altura se ajustará automáticamente */
+}
+
+nav ul {
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    background-color: #ffffff;
+    display: flex; /* Mostrar los elementos de lista en una fila */
+}
+
+nav ul li {
+    display: inline-block; /* Esto no es necesario si estás usando flexbox */
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    border-radius: 5px;
+    background-color: #555;
+    color: #ffffff;
+}
+
